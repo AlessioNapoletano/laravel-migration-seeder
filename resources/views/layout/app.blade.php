@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <header>
+    <header class="d-flex align-items-center ps-2">
         @include('partials.header')
     </header>
 

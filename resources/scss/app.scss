@@ -1,1 +1,4 @@
+@use './partials/header' as *;
+@use './partials/main' as *;
+@use './partials/footer' as *;
 @import '~bootstrap/scss/bootstrap'
