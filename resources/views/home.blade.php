@@ -52,6 +52,36 @@
                                     {{ $train->arrivalTime }}
                                 </span>
                             </p>
+
+                            <p class="card-text">
+                                <span class="fw-bold">
+                                    Numero di carrozze: 
+                                </span>
+
+                                <span>
+                                    {{ $train->numberCarriages }}
+                                </span>
+                            </p>
+
+                            <p class="card-text">
+                                <span class="fw-bold">
+                                    Treno in orario: 
+                                </span>
+
+                                <span>
+                                    {{ $train->inTime ? 'Si' : 'No' }}
+                                </span>
+                            </p>
+
+                            <p class="card-text">
+                                <span class="fw-bold">
+                                    Treno cancellato: 
+                                </span>
+
+                                <span>
+                                    {{ $train->deleted ? 'Si' : 'No' }}
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
